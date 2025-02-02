@@ -66,7 +66,7 @@ def main(part):
     Tm = sol.y[2]
 
     # Plot results
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(10, 8))
     plt.title(part)
     plt.subplot(311)
     plt.plot(t, T, label='T (Tank Temperature)')
